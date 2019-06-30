@@ -1,20 +1,3 @@
-//
-//  AppDelegate.swift
-//  Cardiologic
-//
-//  Created by Ben Zimring on 5/31/18.
-//  Copyright © 2018 pulseApp. All rights reserved.
-//
-
-/**
- UserDefaults formatting:
- - TODO: userName: String
- - userBirthDict: ["month": Int, "date": Int, "year": Int]
- - userWeight: Int
- - userHeight: Int (inches)
- - userGender: String
- */
-
 import UIKit
 import HealthKit
 import DropDown
