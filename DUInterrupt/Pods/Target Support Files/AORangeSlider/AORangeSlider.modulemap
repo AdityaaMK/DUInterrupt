@@ -1,0 +1,6 @@
+framework module AORangeSlider {
+  umbrella header "AORangeSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}

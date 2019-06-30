@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.16"/>
+    </dependencies>
+    <scenes>
+        <!--Monitor-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Monitor" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="DUInterrupt_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" spacing="12" id="xE2-EX-nEy">
+                            <items>
+                                <group width="1" alignment="left" verticalAlignment="bottom" id="zwM-hu-7xS">
+                                    <items>
+                                        <button width="1" alignment="center" title="Heart" id="9Xu-7A-euS">
+                                            <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                            <connections>
+                                                <action selector="didTouchStartButton" destination="AgC-eL-Hgc" id="cYJ-KJ-PCJ"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" alignment="left" spacing="4" id="SEi-CZ-LFm">
+                                    <items>
+                                        <imageView width="80" height="91" alignment="left" id="atC-fo-GXI">
+                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </imageView>
+                                        <group width="44" height="43" alignment="left" verticalAlignment="center" layout="vertical" spacing="0.0" id="AMF-Em-mfm">
+                                            <items>
+                                                <label height="27" alignment="center" text="0" textAlignment="center" id="3qI-5n-ldc">
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="font" type="system" pointSize="29"/>
+                                                </label>
+                                                <label alignment="center" text="  BPM" id="2xR-Y2-zwp">
+                                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                                </label>
+                                            </items>
+                                        </group>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="ksw-HD-qq4">
+                            <items>
+                                <button width="65" height="37" alignment="left" title="Reflex" id="CGU-HM-DvN">
+                                    <color key="titleColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.1215686277" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="start" destination="AgC-eL-Hgc" id="hGc-hC-Qrb"/>
+                                    </connections>
+                                </button>
+                                <button width="65" height="37" alignment="left" title="Stop" id="jZk-zn-SfD">
+                                    <color key="titleColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.1215686277" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="stop" destination="AgC-eL-Hgc" id="vSX-w5-lZi"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <label alignment="center" text="Title" textAlignment="center" id="IJa-hp-zCJ"/>
+                        <label alignment="center" text="Gravity" textAlignment="center" id="2yR-16-2hA">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </label>
+                        <label alignment="center" text="Attitude" textAlignment="center" id="gqC-vF-Eaw"/>
+                        <label alignment="center" text="Accel" textAlignment="center" id="B4K-qJ-S6c"/>
+                        <label alignment="center" text="Rotation" textAlignment="center" id="fjo-sw-4CP"/>
+                    </items>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="attitudeLabel" destination="fjo-sw-4CP" id="jBP-4g-Z4T"/>
+                        <outlet property="button" destination="9Xu-7A-euS" id="Dvw-hs-HEJ"/>
+                        <outlet property="ecgImage" destination="atC-fo-GXI" id="7yb-uM-pzb"/>
+                        <outlet property="gravityLabel" destination="2yR-16-2hA" id="vvr-Jn-Yxh"/>
+                        <outlet property="heartRateLabel" destination="3qI-5n-ldc" id="fqZ-RK-PBk"/>
+                        <outlet property="rotationLabel" destination="B4K-qJ-S6c" id="CCr-4x-AL9"/>
+                        <outlet property="titleLabel" destination="IJa-hp-zCJ" id="ZqL-jB-xH2"/>
+                        <outlet property="userAccelLabel" destination="gqC-vF-Eaw" id="OYt-7k-P14"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="117" y="29.5"/>
+        </scene>
+    </scenes>
+</document>
