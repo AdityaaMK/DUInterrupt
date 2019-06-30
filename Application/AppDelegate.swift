@@ -1,3 +1,11 @@
+//
+//  AppDelegate.swift
+//  DUInterrupt
+//
+//  Created by Adityaa Magesh Kumar on 7/1/19.
+//  Copyright © 2019 Adityaa Magesh Kumar. All rights reserved.
+//
+
 import UIKit
 import HealthKit
 import DropDown
