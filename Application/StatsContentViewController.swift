@@ -3,8 +3,8 @@
 //  Cardiologic
 //  Displays selected day's heart rate info with graph
 //
-//  Created by Ben Zimring on 5/31/18.
-//  Copyright © 2018 pulseApp. All rights reserved.
+//  Created by Adityaa Magesh Kumar on 8/1/19.
+//  Copyright © 2019 Adityaa Magesh Kumar. All rights reserved.
 //
 
 import UIKit
