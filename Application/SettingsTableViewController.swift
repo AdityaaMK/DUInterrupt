@@ -2,8 +2,8 @@
 //  SettingsTableViewController.swift
 //  Cardiologic
 //
-//  Created by Ben Zimring on 8/16/18.
-//  Copyright © 2018 pulseApp. All rights reserved.
+//  Created by Aditya Magesh Kumar on 8/1/19.
+//  Copyright © 2019 Aditya Magesh Kumar. All rights reserved.
 //
 
 import UIKit
