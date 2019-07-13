@@ -2,8 +2,8 @@
 //  InterfaceController.swift
 //  DUInterrupt WatchKit Extension
 //
-//  Created by Aditya Bose on 2/24/19.
-//  Copyright © 2019 Aditya Bose. All rights reserved.
+//  Created by Adityaa Magesh Kumar on 2/24/19.
+//  Copyright © 2019 Adityaa Magesh Kumar. All rights reserved.
 //
 
 import WatchKit
