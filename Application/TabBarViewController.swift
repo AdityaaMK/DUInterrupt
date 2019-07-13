@@ -3,8 +3,8 @@
 //  Cardiologic
 //  Encapsulating VC with tabs to each part of application (dashboard, metrics, etc..)
 //
-//  Created by Ben Zimring on 7/18/18.
-//  Copyright © 2018 pulseApp. All rights reserved.
+//  Created by Adityaa Magesh Kumar on 8/1/19.
+//  Copyright © 2019 Adityaa Magesh Kumar. All rights reserved.
 //
 
 import UIKit
