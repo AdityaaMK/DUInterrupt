@@ -1,7 +1,4 @@
 /*
- Copyright (C) 2016 Apple Inc. All Rights Reserved.
- See LICENSE.txt for this sample’s licensing information
- 
  Abstract:
  This class manages the CoreMotion interactions and 
          provides a delegate to indicate changes in data.
