@@ -2,8 +2,8 @@
 //  ChartFormatters.swift
 //  Cardiologic
 //
-//  Created by Ben Zimring on 7/26/18.
-//  Copyright © 2018 pulseApp. All rights reserved.
+//  Created by Adityaa Magesh Kumar on 8/1/19.
+//  Copyright © 2019 Adityaa Magesh Kumar. All rights reserved.
 //
 
 import Foundation
