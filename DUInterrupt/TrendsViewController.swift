@@ -3,8 +3,8 @@
 //  Cardiologic
 //  Displays static graphs of past week's heart rate data
 //
-//  Created by Ben Zimring on 7/25/18.
-//  Copyright © 2018 pulseApp. All rights reserved.
+//  Created by Adityaa Magesh Kumar on 8/1/19.
+//  Copyright © 2019 Adityaa Magesh Kumar. All rights reserved.
 //
 
 import UIKit
