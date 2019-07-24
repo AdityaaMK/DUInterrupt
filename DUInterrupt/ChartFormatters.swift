@@ -2,7 +2,7 @@
 //  ChartFormatters.swift
 //  Cardiologic
 //
-//  Created by Adityaa Magesh Kumar on 8/1/19.
+//  Created by Adityaa Magesh Kumar on 7/1/19.
 //  Copyright © 2019 Adityaa Magesh Kumar. All rights reserved.
 //
 
