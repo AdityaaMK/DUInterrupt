@@ -6,4 +6,4 @@
 
 ![](phonetest.gif)
 ![](watch.gif)
-![](DUInterruptUMichStartupPitch.mov)<br/>
+![](DUInterruptUMichStartupPitch.gif)<br/>
