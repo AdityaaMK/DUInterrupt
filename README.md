@@ -5,4 +5,5 @@
 * Animated demos below show synchronization between Apple Watch and iPhone
 
 ![](phonetest.gif)
-![](watch.gif)<br/>
+![](watch.gif)
+![](DUInterruptUMichStartupPitch.mov)<br/>
