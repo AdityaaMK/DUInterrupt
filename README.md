@@ -7,4 +7,6 @@
 ![](phonetest.gif)
 ![](watch.gif)
 ![](DUInterruptUMichStartupPitch.gif)
+
+### _Download the DUInterruptUMichStartupPitch.mov file to hear with audio!_
 ![](DUInterruptUMichStartupPitch.mov)<br/>
