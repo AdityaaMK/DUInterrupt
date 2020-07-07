@@ -8,5 +8,5 @@
 ![](watch.gif)
 ![](DUInterruptUMichStartupPitch.gif)
 
-### _Download the DUInterruptUMichStartupPitch.mov file to hear the presentation with audio!_
+## Download the DUInterruptUMichStartupPitch.mov file to hear the presentation with audio!
 ![](DUInterruptUMichStartupPitch.mov)<br/>
